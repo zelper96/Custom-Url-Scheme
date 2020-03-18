@@ -1,11 +1,6 @@
 # Custom-Url-Scheme
 
 
-
-
-
-
-
 manifests 추가
 
 <intent-filter>
@@ -22,11 +17,9 @@ manifests 추가
 
 
 
-java Code
+  java Code
   //1.App에서 호출 데이터 보내는방법
-  
   public void appCall() {
-
         // manifests => <data android:scheme="sample" android:host=" sampleurldata "/>
 
         // keyValue = ?[key]=[value]&[key]=[value]";
@@ -47,9 +40,6 @@ java Code
 
     //2.App에서 호출한 App 에서 데이터 받는방법
     public void appDataReceive(){
-
-        
-
         // Intent intent = getIntent(); = 불러온 App 데이터 가져오기
         Intent intent = getIntent();
         // Intent.ACTION_VIEW.equals(intent.getAction()) = 호출 하는 방식 맞는지 확인
