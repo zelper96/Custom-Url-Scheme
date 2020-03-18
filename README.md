@@ -1,5 +1,11 @@
 # Custom-Url-Scheme
 
+
+
+
+
+
+
 manifests 추가
 
 <intent-filter>
@@ -14,9 +20,11 @@ manifests 추가
     <data android:scheme="sample" android:host="sampleurldata"/>
 </intent-filter>
 
-java Code
 
+
+java Code
   //1.App에서 호출 데이터 보내는방법
+  
   public void appCall() {
 
         // manifests => <data android:scheme="sample" android:host=" sampleurldata "/>
